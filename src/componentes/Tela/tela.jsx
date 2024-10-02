@@ -27,6 +27,10 @@ const gerarInputs = (length) => {
       {votacaoConcluida ? (
         <div className="telaFim">
           <h1>FIM</h1>
+          <audio controls>
+              <source src="/public/fim.mp3"   type="audio/mpeg" />
+                Seu navegador não suporta o áudio.
+              </audio>
         </div>
       ) : (
         <>

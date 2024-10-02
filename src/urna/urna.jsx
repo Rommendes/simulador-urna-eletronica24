@@ -81,6 +81,8 @@ const Urna = () => {
      
 
   const handleConfirma = () => {
+    const audio = new Audio('/public/fim.mp3');
+    audio.play().catch(error => console.error("Erro ao tocar:", error));
     if(votacaoConcluida) return;
 
     if (votoBranco) {
@@ -116,6 +118,7 @@ const Urna = () => {
       setMensagem("FIM")
     }
    
+  
   };
 
   const handleCorrige = () => {
@@ -155,12 +158,7 @@ const Urna = () => {
         />
 
      )}
-     {/* {candidato && candidato.imagem && (
-      <div className="candato-imagem">
-        <img src={candidato.imagem} alt={` Foto de ${candidato.nome}`} />
-      </div>
-     )}
-       */}
+     
     <Rodape/>   
     </div>
     
