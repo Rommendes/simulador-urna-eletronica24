@@ -25,7 +25,9 @@ const gerarInputs = (length) => {
     <div className="tela">
       {/* Se a votação estiver concluída, mostra apenas "FIM" */}
       {votacaoConcluida ? (
-        <h1>FIM</h1>
+        <div className="telaFim">
+          <h1>FIM</h1>
+        </div>
       ) : (
         <>
           {/* Exibe os espaços para digitar o número de vereador */}
