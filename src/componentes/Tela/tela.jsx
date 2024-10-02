@@ -9,12 +9,13 @@ const gerarInputs = (length) => {
   for (let i = 0; i < length; i++) {
     inputs.push(
       <input
+      className="tecladoTela"
         key={i}
         type="text"
         maxLength="1"
         value={numero[i] || ""} // Exibe o número digitado ou vazio
         readOnly 
-        style={{ width: "25px", textAlign: "center", fontSize:"20px", margin: "0 1px" }} // Adiciona estilo para centralizar o número
+        // style={{ width: "25px", textAlign: "center", fontSize:"20px", margin: "0 1px", }} // Adiciona estilo para centralizar o número
       />
     );
   }
@@ -36,7 +37,7 @@ const gerarInputs = (length) => {
             <div>
               <h3>SEU VOTO PARA</h3>
               <h3>Vereador</h3>
-              <p className="tecladoTela">{gerarInputs( 5)}</p>
+              <p >{gerarInputs( 5)}</p>
             </div>
           )}
 
@@ -44,7 +45,7 @@ const gerarInputs = (length) => {
           {tipoVoto === "prefeito" && (
             <div>
               <h3>Prefeito:</h3>
-              <p className="tecladoTela">{gerarInputs( 2)}</p>
+              <p >{gerarInputs( 2)}</p>
             </div>
           )}
 

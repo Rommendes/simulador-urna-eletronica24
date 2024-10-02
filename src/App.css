@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  position: fixed;
+  top: 0; /* Fixa no topo */
+  right: 0; /* Fixa à direita */
+  height: 100vh; /* Altura da viewport */
+  overflow-y: scroll;
+  width: 400px;  
 }
 
 .App-logo {
@@ -61,7 +67,11 @@
   
 }
 .tecladoTela{
-  gap: 5px
+   width: 25px;
+   text-align: center;
+   font-size: 24px; 
+   margin: "0 1px"; 
+   
 }
 .tecladoNumerico {
   padding: 20px;
