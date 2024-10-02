@@ -81,8 +81,6 @@ const Urna = () => {
      
 
   const handleConfirma = () => {
-    const audio = new Audio('/public/fim.mp3');
-    audio.play().catch(error => console.error("Erro ao tocar:", error));
     if(votacaoConcluida) return;
 
     if (votoBranco) {

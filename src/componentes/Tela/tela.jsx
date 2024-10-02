@@ -26,11 +26,8 @@ const gerarInputs = (length) => {
       {/* Se a votação estiver concluída, mostra apenas "FIM" */}
       {votacaoConcluida ? (
         <div className="telaFim">
-          <h1>FIM</h1>
-          <audio controls>
-              <source src="/public/fim.mp3"   type="audio/mpeg" />
-                Seu navegador não suporta o áudio.
-              </audio>
+          <h1 className="animar">FIM</h1>
+          
         </div>
       ) : (
         <>

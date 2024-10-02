@@ -121,7 +121,7 @@
   color: #fff;
 }
 .msg{
-  /* color: red; */
+   color: red; 
 }
 .candidato-imagem img {
   max-width: 90px;
@@ -131,6 +131,20 @@
 .telaFim{
   padding-top: 60px;
   padding-bottom: 60px;
+
+}
+.animar{
+  font-size: 3rem;
+    /* color: #3498db; */
+    animation: aumentarDiminuir 2s infinite;
+}
+@keyframes aumentarDiminuir {
+  0%, 100% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.5); /* Aumenta 50% */
+  }
 }
 
 @media (max-width: 480px) {
