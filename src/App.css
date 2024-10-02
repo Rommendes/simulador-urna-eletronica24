@@ -36,3 +36,103 @@
     transform: rotate(360deg);
   }
 }
+.urna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #403A3A;
+  padding: 20px 40px;
+  line-height: .3;
+}
+
+.tela {
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.teclado {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  
+}
+
+.tecladoNumerico {
+  padding: 20px;
+  font-size: 1.5em;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 0px #555;
+  background-color: #000;
+  color: #FFF;
+  
+}
+.digitar{
+  box-shadow: 3px 3px 0px #555;
+}
+
+.corrige{
+  font-size: .8em;
+  text-transform: uppercase;
+  background-color: #f09046;
+  color: #000;
+}
+.branco{
+  font-size: .8em;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #000;
+
+}
+.confirma{
+  font-size: 0.7em;
+  align-items: center;
+  justify-content: center;
+  background-color: #48c079;
+  color: #000;
+
+}
+.header{
+  font-size: 1.5em;
+  text-align: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #1B305A;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
+}
+.footer{
+  font-size: 0.1em;
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+.msg{
+  /* color: red; */
+}
+.candidato-imagem {
+  max-width: 50px;
+  height: auto;
+  margin-top: 5px;
+}
+@media (max-width: 480px) {
+  .teclado button {
+    padding: 15px;
+    font-size: .8em;
+    
+  }
+}
+

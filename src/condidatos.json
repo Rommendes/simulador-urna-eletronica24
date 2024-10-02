@@ -1,0 +1,40 @@
+{
+    "candidatos": [
+    
+          { "nome": "Candidato A",
+            "numero": "12000",
+            "tipo": "vereador",
+            "partido": "Sol"
+        },
+        
+        { 
+          "nome": "Candidato B",
+          "numero": "12700",
+          "tipo": "vereador",
+          "partido": "Sol"
+        },
+        
+        { 
+         "nome": "Candidato c",
+          "numero": "17600",
+          "tipo": "vereador",
+          "partido": "Lua"
+          
+        },
+      { 
+        "nome": "Candidato D",
+        "numero": "12",
+        "tipo": "prefeito",
+        "partido": "Sol"
+      },
+      
+       { 
+        "nome": "Candidato E",
+        "numero": "17",
+        "tipo": "prefeito",
+        "partido": "Lua"
+      }
+      
+    ]
+  }
+  
