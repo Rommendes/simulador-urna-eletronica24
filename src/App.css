@@ -39,7 +39,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
   background-color: #403A3A;
   padding: 20px 40px;
@@ -57,7 +57,7 @@
 .teclado {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 5px;
   
 }
 
