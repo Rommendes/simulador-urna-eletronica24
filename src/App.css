@@ -57,10 +57,12 @@
 .teclado {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
+  gap: 10px;
   
 }
-
+.tecladoTela{
+  gap: 5px
+}
 .tecladoNumerico {
   padding: 20px;
   font-size: 1.5em;

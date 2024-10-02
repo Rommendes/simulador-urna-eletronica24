@@ -36,7 +36,7 @@ const gerarInputs = (length) => {
             <div>
               <h3>SEU VOTO PARA</h3>
               <h3>Vereador</h3>
-              <p >{gerarInputs( 5)}</p>
+              <p className="tecladoTela">{gerarInputs( 5)}</p>
             </div>
           )}
 
@@ -44,7 +44,7 @@ const gerarInputs = (length) => {
           {tipoVoto === "prefeito" && (
             <div>
               <h3>Prefeito:</h3>
-              <p >{gerarInputs( 2)}</p>
+              <p className="tecladoTela">{gerarInputs( 2)}</p>
             </div>
           )}
 
