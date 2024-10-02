@@ -123,8 +123,8 @@
 .msg{
   /* color: red; */
 }
-.candidato-imagem {
-  max-width: 50px;
+.candidato-imagem img {
+  max-width: 90px;
   height: auto;
   margin-top: 5px;
 }

@@ -52,7 +52,7 @@ const gerarInputs = (length) => {
               <p>Partido: {candidato.partido}</p>
               
             {candidato && candidato.imagem && (
-      <div className="candato-imagem">
+      <div className="candidato-imagem">
         <img src={candidato.imagem} alt={` Foto de ${candidato.nome}`} />
       </div>
      )}
