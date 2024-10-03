@@ -2,22 +2,14 @@ body, html{
   margin: 0;
   padding: 0;
   height: 100%;
-  position: fixed;
+  
  
 }
 
 .App {
   text-align: center;
 
-  position: fixed; 
-  top: 0; /* Fixa no topo */
-  right: 0; /* Fixa à direita */
- /* height: 100vh;  Altura da viewport */
-  overflow-y: scroll;
-  overflow-x: scroll;
-  white-space: nowrap;
-  width: 100%;  
-  display: inline-block;
+  
 }
 
 .App-logo {
@@ -169,11 +161,12 @@ body, html{
   }
 }
 
-@media (max-width: 480px) {
+@media (min: 320px) {
   .teclado button {
     padding: 15px;
     font-size: .8em;
     
   }
+
 }
 
