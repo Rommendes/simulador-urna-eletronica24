@@ -2,14 +2,14 @@ body, html{
   margin: 0;
   padding: 0;
   height: 100%;
-  position: fixed;
+  
  
 }
 
 .App {
   text-align: center;
 
-  /* position: fixed; */
+  position: fixed; 
   top: 0; /* Fixa no topo */
   right: 0; /* Fixa à direita */
  /* height: 100vh;  Altura da viewport */
