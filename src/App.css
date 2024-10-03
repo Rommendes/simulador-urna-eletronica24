@@ -1,11 +1,23 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: fixed;
+ 
+}
+
 .App {
   text-align: center;
-  position: fixed;
+
+  /* position: fixed; */
   top: 0; /* Fixa no topo */
   right: 0; /* Fixa à direita */
-  height: 100vh; /* Altura da viewport */
+ /* height: 100vh;  Altura da viewport */
   overflow-y: scroll;
-  width: 400px;  
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;  
+  display: inline-block;
 }
 
 .App-logo {
@@ -45,7 +57,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 400px;
+   max-width: 400px; 
   margin: 0 auto;
   background-color: #403A3A;
   padding: 20px 40px;
