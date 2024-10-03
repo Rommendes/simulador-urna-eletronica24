@@ -137,7 +137,7 @@ const Urna = () => {
 
   return (
     <div className="urna">
-      <Header/>
+     
       <Tela 
       numero={numero} 
       candidato={candidato} 

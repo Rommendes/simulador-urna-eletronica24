@@ -15,7 +15,7 @@ const gerarInputs = (length) => {
         maxLength="1"
         value={numero[i] || ""} // Exibe o número digitado ou vazio
         readOnly 
-        // style={{ width: "25px", textAlign: "center", fontSize:"20px", margin: "0 1px", }} // Adiciona estilo para centralizar o número
+         style={{ width: "25px", textAlign: "center", fontSize:"20px", margin: "0 2px", }} // Adiciona estilo para centralizar o número
       />
     );
   }
